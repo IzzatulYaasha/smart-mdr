@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.material-selection {
+    margin-bottom: 20px;
+}
+
+.material-selection label {
+    margin-right: 10px;
+}
+
+#material {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.design-suggestion {
+    margin-top: 20px;
+}
+
+.design-suggestion h2 {
+    margin-bottom: 10px;
+}
+
+.design-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.design-item {
+    padding: 20px;
+    background-color: #e0e0e0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.design-item p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
